@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>labscript suite components &mdash; labscript suite | the labscript suite</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/labscript.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="prev" title="BitBucket archive" href="../archive/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../" class="icon icon-home"> the labscript suite
+          
+
+          
+            
+            <img src="../_static/labscript-suite-rectangular-transparent_276x140.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0.0rc2.dev1+gfba5b50
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTATION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation/">Installing the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changes/">Recent changes to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/">BitBucket archive</a></li>
+</ul>
+<p class="caption"><span class="caption-text">FURTHER DOCUMENTATION</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><em>labscript suite</em> components</a><ul>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/blacs/en/latest/">blacs</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript/en/latest/">labscript</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript-devices/en/latest/">labscript-devices</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript-utils/en/latest/">labscript-utils</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/lyse/en/latest/">lyse</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/runmanager/en/latest/">runmanager</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://docs.labscriptsuite.org/projects/runviewer/en/latest/">runviewer</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LINKS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="http://labscriptsuite.org">Home Page</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/labscript-suite/labscript-suite">Source Code</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://pypi.org/project/labscript-suite/">PyPI</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://anaconda.org/labscript-suite/labscript-suite">Anaconda Cloud</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">the labscript suite</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../">Docs</a> &raquo;</li>
+        
+      <li><em>labscript suite</em> components</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/components.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="labscript-suite-components">
+<h1><em>labscript suite</em> components<a class="headerlink" href="#labscript-suite-components" title="Permalink to this headline">¶</a></h1>
+<p>The <em>labscript suite</em> is modular by design, and is comprised of:</p>
+<table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text">Python libraries</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/labscript/en/latest/"><img alt="../_images/labscript_32nx32n.svg" class="labscript-suite-icon" src="../_images/labscript_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript/en/latest/"><strong>labscript</strong></a> — Expressive composition of hardware-timed experiments</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/labscript-devices/en/latest/"><img alt="../_images/labscript_32nx32n.svg" class="labscript-suite-icon" src="../_images/labscript_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript-devices/en/latest/"><strong>labscript-devices</strong></a> — Plugin architecture for controlling experiment hardware</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/labscript-utils/en/latest/"><img alt="../_images/labscript_32nx32n.svg" class="labscript-suite-icon" src="../_images/labscript_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/labscript-utils/en/latest/"><strong>labscript-utils</strong></a> — Shared modules used by the <em>labscript suite</em></p></td>
+</tr>
+</tbody>
+</table>
+<table class="colwidths-given docutils align-default" id="id2">
+<caption><span class="caption-text">Graphical applications</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/runmanager/en/latest/"><img alt="../_images/runmanager_32nx32n.svg" class="labscript-suite-icon" src="../_images/runmanager_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/runmanager/en/latest/"><strong>runmanager</strong></a> — Graphical and remote interface to parameterized experiments</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/blacs/en/latest/"><img alt="../_images/blacs_32nx32n.svg" class="labscript-suite-icon" src="../_images/blacs_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/blacs/en/latest/"><strong>blacs</strong></a> — Graphical interface to scientific instruments and experiment supervision</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/lyse/en/latest/"><img alt="../_images/lyse_32nx32n.svg" class="labscript-suite-icon" src="../_images/lyse_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/lyse/en/latest/"><strong>lyse</strong></a> — Online analysis of live experiment data</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference external image-reference" href="https://docs.labscriptsuite.org/projects/runviewer/en/latest/"><img alt="../_images/runviewer_32nx32n.svg" class="labscript-suite-icon" src="../_images/runviewer_32nx32n.svg" /></a>
+</td>
+<td><p><a class="reference external" href="https://docs.labscriptsuite.org/projects/runviewer/en/latest/"><strong>runviewer</strong></a> — Visualize hardware-timed experiment instructions</p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../archive/" class="btn btn-neutral float-left" title="BitBucket archive" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, labscript suite
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

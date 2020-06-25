@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Developer installation (Python Package Index) &mdash; labscript suite | the labscript suite</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/labscript.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Developer installation (Anaconda Cloud)" href="../developer-anaconda/" />
+    <link rel="prev" title="Regular installation (Anaconda Cloud)" href="../regular-anaconda/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../" class="icon icon-home"> the labscript suite
+          
+
+          
+            
+            <img src="../../_static/labscript-suite-rectangular-transparent_276x140.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0.0rc2.dev1+gfba5b50
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTATION</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../">Installing the <em>labscript suite</em></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../setting-up-an-environment/">Setting up a Python environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regular-pypi/">Regular installation (Python Package Index)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regular-anaconda/">Regular installation (Anaconda Cloud)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Developer installation (Python Package Index)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#quick-start">Quick start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detailed-instructions">Detailed instructions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#updating-a-developer-installation">Updating a developer installation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../developer-anaconda/">Developer installation (Anaconda Cloud)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changes/">Recent changes to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing/">Contributing to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/">BitBucket archive</a></li>
+</ul>
+<p class="caption"><span class="caption-text">FURTHER DOCUMENTATION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../components/"><em>labscript suite</em> components</a></li>
+</ul>
+<p class="caption"><span class="caption-text">LINKS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="http://labscriptsuite.org">Home Page</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/labscript-suite/labscript-suite">Source Code</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://pypi.org/project/labscript-suite/">PyPI</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://anaconda.org/labscript-suite/labscript-suite">Anaconda Cloud</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">the labscript suite</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../">Docs</a> &raquo;</li>
+        
+          <li><a href="../">Installing the <em>labscript suite</em></a> &raquo;</li>
+        
+      <li>Developer installation (Python Package Index)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/installation/developer-pypi.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="developer-installation-python-package-index">
+<h1>Developer installation (Python Package Index)<a class="headerlink" href="#developer-installation-python-package-index" title="Permalink to this headline">¶</a></h1>
+<p>Developer installations are useful for those who want to customise the <em>labscript suite</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You need not fork, clone, and install editable versions of all <em>labscript suite</em> repositories to customise your installation and/or contribute changes back to the base repositories.
+For example, if you only want to develop custom labscript device drivers, you might only fork and clone the labscript-devices repository.
+Moreover, there is now an option to write and use custom labscript device drivers outside of the labscript-devices installation directory.</p>
+</div>
+<div class="section" id="quick-start">
+<h2>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">C:\Users\wkheisenberg\labscript-suite&gt; .venv\Scripts\activate</span>
+<span class="gp gp-VirtualEnv">(.venv)</span> <span class="go">C:\Users\wkheisenberg\labscript-suite&gt; pip install \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/blacs#egg=blacs \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/labscript#egg=labscript \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/labscript-devices#egg=labscript-devices \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/labscript-utils#egg=labscript-utils \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/runmanager#egg=runmanager \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/runviewer#egg=runviewer \</span>
+<span class="go">        --src . -e git+https://github.com/wkheisenberg/lyse#egg=lyse</span>
+<span class="gp gp-VirtualEnv">(.venv)</span> <span class="go">C:\Users\wkheisenberg\labscript-suite&gt; pip install PyQt5</span>
+<span class="gp gp-VirtualEnv">(.venv)</span> <span class="go">C:\Users\wkheisenberg\labscript-suite&gt; labscript-profile-create</span>
+<span class="gp gp-VirtualEnv">(.venv)</span> <span class="go">C:\Users\wkheisenberg\labscript-suite&gt; desktop-app install blacs lyse runmanager runviewer</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="detailed-instructions">
+<h2>Detailed instructions<a class="headerlink" href="#detailed-instructions" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Fork the labscript-suite repositories you want to develop using the <a class="reference external" href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo">GitHub online interface</a>. Below we will include all repositories (except the labscript-suite metapackage).</p></li>
+</ol>
+<ol class="arabic" start="2">
+<li><p>Use <code class="code docutils literal notranslate"><span class="pre">pip</span></code> to both clone these forks locally and install them into your environment. In this example (on Windows), the forks are owned by the (non-existent) GitHub user wkheisenberg.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">C:\Users\wkheisenberg\labscript-suite&gt; pip install ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/blacs#egg=blacs ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/labscript#egg=labscript ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/labscript-devices#egg=labscript-devices ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/labscript-utils#egg=labscript-utils ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/runmanager#egg=runmanager ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/runviewer#egg=runviewer ^</span>
+<span class="go">--src . -e git+https://github.com/wkheisenberg/lyse#egg=lyse</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>This will set your forked repository(ies) to be the ‘origin’ remote.</p></li>
+<li><p>On Linux / macOS the line continuation character is <code class="docutils literal notranslate"><span class="pre">\</span></code> rather than <code class="code docutils literal notranslate"><span class="pre">^</span></code>.</p></li>
+</ul>
+</div>
+<p>Alternatively, manually clone the repositories using <a class="reference external" href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository"><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code></a> and then install them using <code class="code docutils literal notranslate"><span class="pre">pip</span></code> by running the following from the common parent directory:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">C:\Users\wkheisenberg\labscript-suite&gt; pip install -e blacs -e labscript \</span>
+<span class="go">    -e labscript-devices -e labscript-utils -e lyse -e runmanager -e runviewer</span>
+</pre></div>
+</div>
+<p>For a single package, this would look like:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">C:\Users\wkheisenberg\labscript-suite&gt; git clone https://github.com/wkheisenberg/runmanager.git</span>
+<span class="go">C:\Users\wkheisenberg\labscript-suite&gt; pip install -e runmanager</span>
+</pre></div>
+</div>
+</li>
+<li><p>For each repository, set the upstream remote to the base labscript-suite repository:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">C:\Users\wkheisenberg\labscript-suite&gt; cd blacs</span>
+<span class="go">C:\Users\wkheisenberg\labscript-suite&gt; git remote add upstream https://github.com/labscript-suite/blacs.git</span>
+<span class="go">C:\Users\wkheisenberg\labscript-suite&gt; cd ..</span>
+</pre></div>
+</div>
+<p>Repeat for the other repositories.</p>
+</li>
+<li><p>Continue from step 4 (install PyQt5) in the <a class="reference internal" href="../regular-pypi/"><span class="doc">Regular installation (Python Package Index)</span></a> instructions.</p></li>
+</ol>
+</div>
+<div class="section" id="updating-a-developer-installation">
+<h2>Updating a developer installation<a class="headerlink" href="#updating-a-developer-installation" title="Permalink to this headline">¶</a></h2>
+<p>This assumes you have already completed the developer installation above and have:</p>
+<ul class="simple">
+<li><p>Forked a <em>labscript suite</em> repository on GitHub;</p></li>
+<li><p>Cloned the repository;</p></li>
+<li><p>Set your fork to be the ‘origin’ remote; and</p></li>
+<li><p>Set the labscript-suite base repository to be the ‘upstream’ remote.</p></li>
+</ul>
+<ol class="arabic">
+<li><p>Use one of the following to keep your repository (and feature branches) up-to-date:</p>
+<p><a class="reference external" href="https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository#fetching-changes-from-a-remote-repository">Fetch changes, and merge</a> with your local master branch.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout master
+<span class="gp">&gt;</span> git fetch upstream master --tags
+<span class="gp">&gt;</span> git merge upstream/master
+</pre></div>
+</div>
+<p>Or using <a class="reference external" href="https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository#pulling-changes-from-a-remote-repository">Git Pull</a>:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout master
+<span class="gp">&gt;</span> git pull upstream master --tags
+</pre></div>
+</div>
+<p>Or using <a class="reference external" href="https://hub.github.com/">hub sync</a> command-line extension (does not require current local working branch to be master):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> hub sync
+</pre></div>
+</div>
+</li>
+<li><p>Update your feature branches by merging them with master or rebasing them to master:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout your-feature-name
+<span class="gp">&gt;</span> git merge master &lt;OR&gt; git rebase master --autostash
+</pre></div>
+</div>
+</li>
+<li><p>Update your fork by <a class="reference external" href="https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository">pushing</a> any changes resulting from steps 1–2 and/or subsequent local development:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout master
+<span class="gp">&gt;</span> git push origin master --tags
+<span class="gp">&gt;</span> git checkout your-feature-name
+<span class="gp">&gt;</span> git push origin your-feature-name master
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the feature branch has not yet been created on your fork, you need to include <code class="code docutils literal notranslate"><span class="pre">-u</span></code> above, i.e.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git push -u origin your-feature-name
+</pre></div>
+</div>
+</div>
+</li>
+<li><p>Checkout the commit you want to install. This might be a specific release version (which can be specified by tag):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout v0.3.2
+</pre></div>
+</div>
+<p>or using the commit SHA:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> git checkout 59651b5
+</pre></div>
+</div>
+</li>
+<li><p>(Optional) Update the package using (from within the root of a repository):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span> pip install -e .
+</pre></div>
+</div>
+<p>As the installations are in editable mode and the version is being introspected at runtime, this step is not always necessary, but is required for any change requiring setup.py to be run to take effect, e.g. dependency changes, console entry points, etc.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../developer-anaconda/" class="btn btn-neutral float-right" title="Developer installation (Anaconda Cloud)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../regular-anaconda/" class="btn btn-neutral float-left" title="Regular installation (Anaconda Cloud)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, labscript suite
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

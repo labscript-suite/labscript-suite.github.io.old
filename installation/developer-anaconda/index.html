@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Developer installation (Anaconda Cloud) &mdash; labscript suite | the labscript suite</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/labscript.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Recent changes to the labscript suite" href="../../changes/" />
+    <link rel="prev" title="Developer installation (Python Package Index)" href="../developer-pypi/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../" class="icon icon-home"> the labscript suite
+          
+
+          
+            
+            <img src="../../_static/labscript-suite-rectangular-transparent_276x140.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0.0rc2.dev1+gfba5b50
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTATION</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../">Installing the <em>labscript suite</em></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../setting-up-an-environment/">Setting up a Python environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regular-pypi/">Regular installation (Python Package Index)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regular-anaconda/">Regular installation (Anaconda Cloud)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developer-pypi/">Developer installation (Python Package Index)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Developer installation (Anaconda Cloud)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#quick-start">Quick start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detailed-instructions">Detailed instructions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changes/">Recent changes to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing/">Contributing to the <em>labscript suite</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/">BitBucket archive</a></li>
+</ul>
+<p class="caption"><span class="caption-text">FURTHER DOCUMENTATION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../components/"><em>labscript suite</em> components</a></li>
+</ul>
+<p class="caption"><span class="caption-text">LINKS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="http://labscriptsuite.org">Home Page</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/labscript-suite/labscript-suite">Source Code</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://pypi.org/project/labscript-suite/">PyPI</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://anaconda.org/labscript-suite/labscript-suite">Anaconda Cloud</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">the labscript suite</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../">Docs</a> &raquo;</li>
+        
+          <li><a href="../">Installing the <em>labscript suite</em></a> &raquo;</li>
+        
+      <li>Developer installation (Anaconda Cloud)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/installation/developer-anaconda.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="developer-installation-anaconda-cloud">
+<h1>Developer installation (Anaconda Cloud)<a class="headerlink" href="#developer-installation-anaconda-cloud" title="Permalink to this headline">¶</a></h1>
+<p>Developer installations are useful for those who want to customise the <em>labscript suite</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You need not fork, clone, and install editable versions of all <em>labscript suite</em> repositories to customise your installation and/or contribute changes back to the base repositories.
+For example, if you only want to develop custom labscript device drivers, you might only fork and clone the labscript-devices repository.
+Moreover, there is now an option to write and use custom labscript device drivers outside of the labscript-devices installation directory.</p>
+</div>
+<p>In this example, we will use an existing conda environment named <code class="code docutils literal notranslate"><span class="pre">py38</span></code>.
+Skip the first line/step if continuing on from the instructions to <a class="reference internal" href="../setting-up-an-environment/#anaconda-python"><span class="std std-ref">set up this environment</span></a>.</p>
+<div class="section" id="quick-start">
+<h2>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After the first line, the current directory is ommited from the command prompt
+for brevity.</p>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp gp-VirtualEnv">(base)</span> <span class="go">C:\Users\wkheisenberg&gt; mkdir labscript-suite</span>
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> <span class="nb">cd</span> labscript-suite
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/labscript
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/runmanager
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/blacs
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/lyse
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/runviewer
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/labscript-devices
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> git clone https://github.com/wkheisenberg/labscript-utils
+<span class="gp gp-VirtualEnv">(base)</span> <span class="gp">&gt;</span> conda activate py38
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> conda config --env --add channels labscript-suite
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> conda install setuptools-conda pyqt pip desktop-app
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> setuptools-conda install-requirements ^
+<span class="go">         labscript runmanager blacs lyse runviewer labscript-devices labscript-utils</span>
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> pip install --no-build-isolation --no-deps ^
+<span class="go">         -e labscript -e runmanager -e blacs -e lyse ^</span>
+<span class="go">         -e runviewer -e labscript-devices -e labscript-utils</span>
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> labscript-profile-create
+<span class="gp gp-VirtualEnv">(py38)</span> <span class="gp">&gt;</span> desktop-app install blacs lyse runmanager runviewer
+</pre></div>
+</div>
+</div>
+<div class="section" id="detailed-instructions">
+<h2>Detailed instructions<a class="headerlink" href="#detailed-instructions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Under construction*</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../changes/" class="btn btn-neutral float-right" title="Recent changes to the labscript suite" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../developer-pypi/" class="btn btn-neutral float-left" title="Developer installation (Python Package Index)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, labscript suite
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
